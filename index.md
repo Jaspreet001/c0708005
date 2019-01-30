@@ -1,37 +1,83 @@
-## Welcome to GitHub Pages
+/*
+* To change this license header, choose License Headers in Project Properties.
+* To change this template file, choose Tools | Templates
+* and open the template in the editor.
+*/
+package c0708005
+import java.util.*;
 
-You can use the [editor on GitHub](https://github.com/Jaspreet001/c0708005/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+/**
+*
+* @author 708005
+*/
+public class C0697255 {
+public static void main(String[] args){
+Jungle j1 = newJungle();
+j1.run ();
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+}
+}
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+class jungle {
 
-# Header 1
-## Header 2
-### Header 3
+Competition Competition1 = new Competition ();
+Lion L1;
+Tiger T1;
+public Jungle () {}
+public void run () {}
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+System.out.println("winner is" + Competition1.doCompetition(L1,T1)):
+}
 
-**Bold** and _Italic_ and `Code` text
+class Competition {
+public String doCompetition(Feline Lion1, Feline Tiger1 ){
+String winningAnimal= "";
+int NumberofLionWinners =0;
+int NumberofTigersWinners =0;
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+for ( int i =0; i<100; i++){
+Lion1 = new Lion();
+Tiger1 = new Tiger ();
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jaspreet001/c0708005/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+if (Lion1.Strength>Tiger1.Strength){
+NumberofLionWinners++;
 
-### Support or Contact
+}
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+}
+
+if (NumberOfLionWinners>NumberOfTigerWinners){
+return "Lions";
+}
+else{return "Tigers";}
+
+
+}
+}
+class Feline{ 
+public String name;
+public int Strength =0;
+public Feline () {
+
+Random r1 = new Random()
+;
+Strength = r1.nextInt(100);
+
+}
+}
+Class Tiger extends Feline{
+
+public String name = "Sara";
+
+}
+
+Class Lion extends Feline {
+
+public String name ="Gerrge" ;
+
+}
